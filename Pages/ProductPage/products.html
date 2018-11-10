@@ -1,0 +1,51 @@
+<html>
+<head>
+  <title> Smeraldo Test Site </title>
+
+<link rel="stylesheet" type="text/css" href="products.css">
+<script src="../../Resources/sha256.js"> </script>
+<script src="products.js"> </script>
+</head>
+<body>
+  <div class="dropdown">
+
+    <button class="dropbtn">Navigation</button>
+
+
+    <div class="dropdown-content">
+      <a href="../HomePage/index.html">Home Page</a>
+      <a href="../AboutPage/about.html">About Us</a>
+      <a href="../ContactPage/contact.html">Contact Us</a>
+    </div>
+  </div>
+  <div class="imagethingy">
+    <img src="../../Resources/Images/LogoBase.jpeg" alt="TestLogo" class="logo">
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
+Name: <input type="text" class="name" id="name">
+Flavor:
+<select name="flav" id="flavor">
+<option value="Jasmine"> Jasmine </option>
+<option value="Rose"> Rose </option>
+<option value="Lavender"> Lavender </option>
+</select>
+<br>
+Color:
+<select name="col" id="color">
+  <option value="Red"> Red </option>
+  <option value="Pink"> Pink </option>
+  <option value="Orange"> Orange </option>
+  <option value="white"> White </option>
+</select>
+Address: <input type="text" class="addr" id="addr">
+Contact Number: <input type="text" class="numb" id="numb">
+
+<button class="writer" onclick="writeArray()"> Submit Order </button>
+</body>
+</html>
